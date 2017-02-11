@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Slabo+27px');
+@font-face {
+  font-family: "Harlow Solid Italic Italic";
+  src: url(../fonts/Harlow.ttf) format("truetype");
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+/***************** UNIVERSALS ****************/
+.button{
+    border: 2px solid #57d9b0;
+    padding: 0.4em 0.7em 0.4em 0.7em;
+    border-radius: 2px;
+}
+.button-type-1{
+    border: 2px solid #57d9b0;
+    padding: 0.1em 0.4em;
+    border-radius: 2px;
+}
+.button-type-2{
+    border: 2px solid #57d9b0;
+    padding: 0.4em 0.7em 0.4em 0.7em;
+    border-radius: 2px;
+    font-size: 22px;
+    text-align: center;
+    display: center;
+}
+.button-margin::before{
+    content: <br>;
+}
+.separation-line{
+    margin: 1em auto;
+    width: 90%;
+    height: 2px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,000000+25,000000+51,000000+75,ffffff+100 */
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(left,  #ffffff 0%, #000000 25%, #000000 51%, #000000 75%, #ffffff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #ffffff 0%,#000000 25%,#000000 51%,#000000 75%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #ffffff 0%,#000000 25%,#000000 51%,#000000 75%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+}
+img{
+    max-width: 100%;
+}
+h1{
+    font-size: 36px;    
+}
+h2{
+    font-size: 1.6em;
+    
+}
+h3{
+    font-size: 1.4em;
+    
+}
+h4{
+    font-size: 1.2em;
+    
+}
+h5{
+    font-size: 1.1em;
+}
+strong{
+    font-size: 1.05em;
+    font-weight: 600;
+}
+#wrapper{
+    min-height: calc(100vh - 75px);
+}
+iframe{
+    max-width: 100%;
+    width: 100%;
+    height: 300px;
+}
+p{
+    font-size: 20px;
+}
+.button:hover{
+    background-color: #57d9b0;
+    cursor: pointer;
+    color: #efefef;
+}
+.button a{
+    text-decoration: none;
+    color: #000;
+}
+.button:hover a{
+    text-decoration: none;
+    color: #fff;
+}
+/*************** FRONTPAGE HEADER *****************/
+header{
+    background-color: #1e3036;
+    background-image: url("../img/bgrepeatSPPP.png");
+    background-size: 20px;
+    background-attachment: fixed;
+    color: #efefef;
+    text-align: center;
+}
+.button-login{
+    position: fixed;
+    right: 1em;
+    top: 1em;
+}
+.frontpage-logo{
+    display: inline;
+    padding-top: 1em;
+}
+.site-title-header{
+    padding: 0.4em;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #57d9b0;
+}
+.f-c-1{
+   color: #ec7d70; 
+}
+/*************** FRONTPAGE CONTENT ****************/
+
+/*************** CONTENT AREA **************/
+.content-wrap-1{
+    text-align: center;
+    background-color: #fff;
+}
+.content-wrap-2{
+    background-color: #2e4a53;
+    color: #efefef;
+}
+.content-wrap-3{
+     background-color: #fff;
+}
+.single-content{
+    width: 100%;
+    max-width: 660px;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: text-top;
+    padding: 2em 0;
+    
+}
+.double-content{
+    width: 100%;
+    max-width: 660px;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+    vertical-align: text-top;
+    padding-top: 2em;
+}
+.double-content img{
+    max-width: 100%;
+    display: inline;
+}
+.triple-wrap{
+    text-align: center;
+}
+.triple-content{
+    width: 440px;
+    display: inline-block;
+    vertical-align: center;
+    background-color: #2e4a53;
+    color: #fff;
+    margin: 3px;
+    min-height: 150px;
+    border-radius: 3px;
+}
+.triple-content p {
+    visibility: hidden;
+}
+.triple-content:hover p {
+    visibility: visible;
+}
+/***** VÅR TECH *****/
+.tech-image{
+    width: 660px;
+}
+/*************** FOOTER **************/
+footer{
+    background-color: #1e3036;
+    color: #d9d9d9;
+    min-height: 75px;
+    vertical-align: center;
+}
+footer p {
+    padding-top: 30px;
+}
+/************ LOGIN MODULE ************/
+.backdrop-login{
+    
+}
+.login-module{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #1e3036;
+    padding: 1.8em;
+    top: 30%;
+    border-radius: 5px;
+    border: 3px solid #57d9b0;
+    color: #fff;
+    -webkit-box-shadow: 0px 0px 91px 17px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 91px 17px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 91px 17px rgba(0,0,0,0.75);
+    /*** BACKGROUND IMAGE ON THE LOGIN MODULE ***/
+}
+.login-module input{
+    height: 1.5em;
+    margin: 0.3em 0em;
+    margin-right: 0.3em;
+    max-width: 170px;
+    font-size: 1.2em;
+    
+}
+.site-title-header { 
+    font-family: "Harlow Solid Italic Italic", sans-serif;
+    font-size: 5em;
+}

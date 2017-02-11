@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpeedPi AdminArea</title>
+    
+    <link rel="icon" href="img/favicoT.png">
+    
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+    Welcome {{ current_user.email }}!<br />
+    If you're seeing this page, you must be logged in as an admin.<br />
+
+    Click <a href="/logout">here</a> to log out.<br />
+</body>
+</html>
