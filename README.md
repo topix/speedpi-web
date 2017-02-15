@@ -1,3 +1,4 @@
-speedpi-webapp
+SpeedPi-Web
+==============
 
-Customer functions for SpeedPi
+Frontend for showing all data on a public shareable heatmap.
